@@ -1,2 +1,14 @@
+@import"./abstracts/fonts";
 @import "./abstracts/reset";
-@import "./components/user_card";
+@import"./abstracts/variables";
+
+/** utilities **/
+
+@import"./utilities/box";
+@import"./utilities/container";
+
+/**  components**/
+@import "./components/design";
+@import "./components/navbar";
+@import "./components/profile";
+@import "./components/work_dt";

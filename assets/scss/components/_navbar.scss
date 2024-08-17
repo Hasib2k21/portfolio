@@ -1,0 +1,73 @@
+#header{
+    padding: 20px 0px;
+
+}
+.navbar {
+    display: grid;
+    //background: purple;
+    grid-template-columns: 80px 260px 1fr 180px;
+    column-gap: 30px;
+
+    .logo {
+        display: grid;
+        align-content: center;
+        img {
+            height: 30px;
+        }
+
+    }
+
+    .email {
+        display: grid;
+        align-content: center;
+
+        a {
+            &:hover {
+
+                color: var(--brand_color2);
+            }
+        }
+    }
+
+    .nav_list {
+        display: grid;
+        align-content: center;
+
+        ul {
+            display: flex;
+            justify-content: end;
+            gap: 30px;
+
+            li {
+                a {
+                    text-transform: capitalize;
+                    color: var(--brand_color);
+
+                    &:hover {
+                        color: var(--brand_color2);
+                    }
+                }
+            }
+        }
+
+    }
+
+    .hire_me {
+
+        text-align: right;
+        a {
+            color: var(--white);
+            font-family: var(--font_sora_bold);
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-transform: uppercase;
+            transition-duration: 0.1;
+            background: rgb(129, 79, 236);
+
+            &:hover {
+                background: linear-gradient(90deg, rgba(2, 0, 36, 1) 17%, rgba(9, 9, 121, 1) 51%, rgba(0, 212, 255, 1) 76%);
+            }
+        }
+    }
+
+}
