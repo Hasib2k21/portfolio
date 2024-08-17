@@ -36,6 +36,7 @@
         -o-transition: background-color 5s ease, color white 1s ease;
 
         &:hover {
+            color: #ffffff;
             background: rgb(25, 14, 201);
             background: linear-gradient(90deg, rgba(25, 14, 201, 1) 20%, rgba(68, 173, 241, 1) 41%, rgba(101, 56, 225, 1) 58%, rgba(31, 135, 189, 1) 80%);
             /* Optional: change border color on hover */
@@ -86,10 +87,11 @@
                 transition: transform 1s ease;
                 width: 50px;
                 height: 50px;
-                background-color: #DDDDDD;
+               // background-color: #DDDDDD;
 
                 &:hover {
                     transform: rotate(-180deg);
+                    color: #ffffff;
                 }
             }
         }
