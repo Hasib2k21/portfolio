@@ -4,6 +4,9 @@
 }
 
 .design1 {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
     .quality {
         text-align: center;
 
@@ -20,6 +23,7 @@
             font-size: 15px;
             color: var(--brand_color1);
             margin-bottom: 30px;
+            padding-bottom: 30px;
         }
     }
 
@@ -27,6 +31,7 @@
         color: var(--white);
         border: 1px solid #DDDDDD;
         padding: 20px;
+       
 
         transition: background-color 5s ease, color white 1s ease;
         cursor: pointer;
