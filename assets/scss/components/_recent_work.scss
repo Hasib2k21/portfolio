@@ -80,14 +80,15 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         /* Two equal-width columns */
-        gap: 30px;
+        gap: 50px;
         /* Spacing between the images */
-        margin: 20px 0;
+        margin: 30px 30px;
         padding-top: 30px;
 
         .work_img_list {
             
             img{
+                
                 width: 100%;
                 border-radius: 10px;
                 -webkit-border-radius: 10px;
