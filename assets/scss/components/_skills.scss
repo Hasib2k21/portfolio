@@ -1,0 +1,74 @@
+#skills {
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+
+.skill_section {
+    text-align: center;
+    padding: 50px 20px;
+
+    .skill_heading {
+        text-align: center;
+
+        h1 {
+            font-family: var(--font_sora_semibold);
+            font-size: 40px;
+            color: var(--brand_color);
+            margin-bottom: 10px;
+        }
+
+        p {
+            padding-top: 5px;
+            font-family: var(--font_sora_regular);
+            font-size: 15px;
+            color: var(--brand_color1);
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+        }
+    }
+
+    .skills_container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .skill {
+            background-color: #fafafa;
+            border-radius: 15px;
+            padding: 20px;
+            width: 140px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            &:hover {
+                color: var(--white);
+                background-color: var(--brand_color2);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+                transform: translateY(-10px);
+            }
+
+            &.active {
+                background-color: var(--brand_color);
+                color: var(--white);
+            }
+
+            img {
+                padding-left: 40px;
+                width: 60px;
+                margin-bottom: 10px;
+                justify-items: center;
+            }
+
+            .percentage {
+                font-size: 1.5em;
+                color: #555;
+                margin: 10px 0;
+            }
+
+            .skill-name {
+                color: #6a0dad;
+                font-weight: bold;
+            }
+        }
+    }
+}
