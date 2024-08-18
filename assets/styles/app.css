@@ -729,6 +729,7 @@ a {
   transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 .skill_section .skills_container .skill:hover {
+  color: var(--white);
   background-color: var(--brand_color2);
   -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
           box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
