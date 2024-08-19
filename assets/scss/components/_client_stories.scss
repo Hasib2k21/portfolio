@@ -1,0 +1,62 @@
+#my_client {
+    padding: 20px 0px;
+    background-color: #F6F3FC;
+    margin-top: 50px;
+}
+
+.my_client {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 50px;
+
+    .client {
+        text-align: start;
+
+        .client_heading {
+            padding: 70px;
+
+            h1 {
+                font-size: 45px;
+
+                font-family: var(--font_sora_semibold);
+                background: -webkit-linear-gradient(var(--brand_color), var(--brand_color2));
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 16px;
+                font-family: var(--font_sora_regular);
+            }
+        }
+
+    }
+
+    .client_card {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        border-radius: 15px;
+        padding: 20px;
+        width: 500px;
+       
+    }
+
+    .card_information {
+        
+        border-radius: 10px;
+       
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+
+        
+
+
+
+    }
+}
