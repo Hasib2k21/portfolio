@@ -28,23 +28,17 @@
     }
 
     .box1 {
-        color: var(--white);
+       
         border: 1px solid #DDDDDD;
         padding: 20px;
        
 
         transition: background-color 5s ease, color white 1s ease;
         cursor: pointer;
-        -webkit-transition: background-color 5s ease, color white 1s ease;
-        -moz-transition: background-color 5s ease, color white 1s ease;
-        -ms-transition: background-color 5s ease, color white 1s ease;
-        -o-transition: background-color 5s ease, color white 1s ease;
 
-        &:hover {
-            color: #ffffff;
-            background: rgb(25, 14, 201);
-            background: linear-gradient(90deg, rgba(25, 14, 201, 1) 20%, rgba(68, 173, 241, 1) 41%, rgba(101, 56, 225, 1) 58%, rgba(31, 135, 189, 1) 80%);
-            /* Optional: change border color on hover */
+        &:hover  {
+            color:var(--white);
+            background: linear-gradient(90deg, #ae3bff, #4c00c2);
         }
     }
 
