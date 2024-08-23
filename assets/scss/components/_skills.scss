@@ -39,7 +39,8 @@
             padding: 20px;
             width: 140px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+
             &:hover {
                 color: var(--white);
                 background-color: var(--brand_color2);
@@ -48,8 +49,8 @@
             }
 
             &.active {
-                background-color: var(--brand_color);
-                color: var(--white);
+                color: greenyellow;
+                background-color: var(--brand_color2);
             }
 
             img {
