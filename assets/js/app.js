@@ -38,7 +38,7 @@ window.onload = () => {
         $(".client_slider").owlCarousel({
             items: 2,
             dots: true,
-            nav: true,
+            nav: false,
             autoplay: true,
             animateOut: 'animate__backOutLeft',
             loop: true,

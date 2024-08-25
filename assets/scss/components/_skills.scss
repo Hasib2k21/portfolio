@@ -46,6 +46,7 @@
                 background-color: var(--brand_color2);
                 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
                 transform: translateY(-10px);
+                .percentage,.skill-name{color: var(--white);}
             }
 
             &.active {

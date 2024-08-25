@@ -36,16 +36,30 @@
         transition: background-color 5s ease, color white 1s ease;
         cursor: pointer;
 
-        &:hover  {
-            color:var(--white);
-            background: linear-gradient(90deg, #ae3bff, #4c00c2);
-        }
+       
     }
 
     .box_design1 {
         display: grid;
         grid-template-columns: 360px 1fr 80px;
         column-gap: 100px;
+        &:hover  {
+            background: linear-gradient(90deg, #ae3bff, #4c00c2);
+            .box_input{
+                h1,h3{
+
+                    color: #ffffff;
+                }
+            }
+            .box_input1{
+                p{
+
+                    color: #ffffff;
+                }
+            }
+        //     color:white;
+        
+    }
 
         .box_input {
             display: grid;
@@ -88,14 +102,18 @@
                 height: 50px;
                // background-color: #DDDDDD;
 
-                &:hover {
-                    transform: rotate(-180deg);
-                    color: #ffffff;
-                }
+               
+               
+
             }
         }
 
 
     }
-
+    
+    // .box_design1:hover{
+    //     .box_input h1{
+    //         color: #ffffff;
+    //     }
+    // }
 }
